@@ -14,7 +14,7 @@ const picture = (item,cls='') => {
  return main+strip;
 };
 const fold = (title,text) => text ? `<details class="field-fold"><summary>${h(title)} <span>＋</span></summary><p>${h(text)}</p></details>` : '';
-const localOrHttp = v => (/^(\/|https?:\/\/)[^"<>]*$/.test(v||'') ? v : '');
+const localOrHttp = v => (/^(\/|\.\/|assets\/|https?:\/\/)[^"<>]*$/.test(v||'') ? v : '');
 const videoBlock = item => {
  const src = localOrHttp(item.video);
  if(!src) return '';

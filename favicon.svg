@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="冬青的岛">
+  <rect width="64" height="64" rx="14" fill="#2f5e4e"/>
+  <path d="M10 40c6-7 12-7 18 0s12 7 18 0 12-7 18 0" fill="none" stroke="#dfeedd" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M10 50c6-7 12-7 18 0s12 7 18 0 12-7 18 0" fill="none" stroke="#a8cdb8" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="43" cy="21" r="5.2" fill="#f0b47a"/>
+</svg>
+
